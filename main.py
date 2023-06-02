@@ -1,4 +1,4 @@
-from streamlit import image, columns, title, write, set_page_config, header
+from streamlit import image, columns, title, write, set_page_config, header, subheader
 from pandas import read_csv
 
 set_page_config(layout="wide")
@@ -15,12 +15,18 @@ with col_2:
 content_2 = "Below you can find some of the apps I have built in Python. Feel free to contact me"
 write(content_2)
 
-col_3, col_4 = columns(2)
+col_3, empty_col, col_4 = columns([1.5, 0.5, 1.5])
 df = read_csv("data.csv", sep=";")
 for index, row in df.iterrows():
     if index % 2 == 0:
         with col_3:
             header(row["title"])
+            write(row["description"])
+            image(f"images/{row['image']}")
+            write(f"[Source Code]({row['url']})")
     else:
         with col_4:
             header(row["title"])
+            write(row["description"])
+            image(f"images/{row['image']}")
+            write(f"[Source Code]({row['url']})")
