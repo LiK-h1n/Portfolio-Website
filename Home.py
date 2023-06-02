@@ -1,7 +1,7 @@
-from streamlit import image, columns, title, write, set_page_config, header, subheader
+from streamlit import image, columns, title, write, set_page_config, header
 from pandas import read_csv
 
-set_page_config(layout="wide")
+set_page_config("Home", layout="wide")
 
 col_1, col_2 = columns(2)
 with col_1:
