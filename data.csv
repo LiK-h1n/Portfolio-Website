@@ -3,3 +3,4 @@ Todo-List;A Python web app serving as a task management tool, functioning as a t
 Portfolio Website;A Python web app serving as a portfolio website, highlighting and showcasing personal projects.;https://github.com/LiK-h1n/Portfolio-Website.git;2.png
 PDF Templates;A Python script that generates multi-page PDF templates based on predefined guidelines.;https://github.com/LiK-h1n/PDF-Templates;3.png
 PDF Invoices;A Python script that reads invoice records from Excel files and automatically generates PDF invoices based on the data.;https://github.com/LiK-h1n/PDF-Invoices;4.png
+News by Email;A Python script that utilizes a News API to fetch news articles related to a specific topic and sends them via email.;https://github.com/LiK-h1n/News-by-Email.git;5.png
