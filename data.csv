@@ -6,3 +6,4 @@ PDF Invoices;A Python script that reads invoice records from Excel files and aut
 News by Email;A Python script that utilizes a News API to fetch news articles related to a specific topic and sends them via email.;https://github.com/LiK-h1n/News-by-Email.git;5.png
 Weather API;A Python-based REST API that retrieves temperature data for a specific station based on a given date.;https://github.com/LiK-h1n/Weather-API.git;6.png
 Weather Forecast;A Python web app that fetches weather information, including temperature and sky conditions for a specified location over a period of 1 to 5 days.;https://github.com/LiK-h1n/Weather-Forecast.git;7.png
+Webcam Object Detection;A Python script that activates the webcam and detects objects in its view, sending an email with an image capture whenever an object is detected.;https://github.com/LiK-h1n/Webcam-Object-Detection.git;8.png
