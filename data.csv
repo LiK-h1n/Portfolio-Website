@@ -7,3 +7,4 @@ News by Email;A Python script that utilizes a News API to fetch news articles re
 Weather API;A Python-based REST API that retrieves temperature data for a specific station based on a given date.;https://github.com/LiK-h1n/Weather-API.git;6.png
 Weather Forecast;A Python web app that fetches weather information, including temperature and sky conditions for a specified location over a period of 1 to 5 days.;https://github.com/LiK-h1n/Weather-Forecast.git;7.png
 Webcam Object Detection;A Python script that activates the webcam and detects objects in its view, sending an email with an image capture whenever an object is detected.;https://github.com/LiK-h1n/Webcam-Object-Detection.git;8.png
+Event Web Scraper;A Python script that performs web scraping to extract upcoming events from a website and sends email notifications whenever new events are detected.;https://github.com/LiK-h1n/Event-Web-Scraper.git;9.png
