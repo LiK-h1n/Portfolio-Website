@@ -5,7 +5,7 @@ set_page_config("Portfolio Website", layout="wide")
 
 col_1, col_2 = columns(2)
 with col_1:
-    image("images/photo.jfif", width=300)
+    image("images/photo.jpeg", width=300)
 with col_2:
     title("Nikhil Idiculla")
     content_1 = "Passionate Python programmer with a drive to create innovative solutions and explore the endless " \
